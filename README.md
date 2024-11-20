@@ -20,12 +20,12 @@ The non-profit foundation Alphabet Soup requires a tool to select funding applic
 ## 2. Repository
 
 Jupyter Notebooks
-- AlphabetSoupCharity.ipynb
-- AlphabetSoupCharity_Optimization.ipynb
+- [`AlphabetSoupCharity.ipynb`](AlphabetSoupCharity.ipynb)
+- [`AlphabetSoupCharity_Optimization.ipynb`](AlphabetSoupCharity_Optimization.ipynb)
 
 Results
-- Results/AlphabetSoupCharity.h5
-- Results/AlphabetSoupCharity_Optimization.h5
+- `Results/AlphabetSoupCharity.h5`
+- `Results/AlphabetSoupCharity_Optimization.h5`
 
 
 ## 3. Deployment

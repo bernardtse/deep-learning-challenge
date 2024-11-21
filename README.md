@@ -1,5 +1,5 @@
 # Deep Learning Challenge
-Alphabet Soup Funding Prediction: Success Classification using Deep Learning
+Charity Funding Predictions with Neural Network Models
 
 ## Contents
 

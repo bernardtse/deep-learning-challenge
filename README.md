@@ -1,4 +1,5 @@
-# Deep Learning Challenge - Alphabet Soup Charity
+# Deep Learning Challenge
+Alphabet Soup Funding Prediction: Success Classification using Deep Learning
 
 ## Contents
 

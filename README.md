@@ -25,20 +25,20 @@ Jupyter Notebooks
 - [`AlphabetSoupCharity_Optimization.ipynb`](AlphabetSoupCharity_Optimization.ipynb)
 
 Results
-- `Results/AlphabetSoupCharity.h5`
-- `Results/AlphabetSoupCharity_Optimization.h5`
+- `results/AlphabetSoupCharity.h5`
+- `results/AlphabetSoupCharity_Optimization.h5`
 
 
 ## 3. Deployment
 
 ### Running the Test
-<p align="center"><img src = "Images/colab.png" height = "60%" width = "60%" /></p>
+![Google Colab](images/colab.png)
 
 - Sign in to Google Colab or any online Jupyter Notebook services that support deep learning libraries like TensorFlow. 
 - Make sure all required libraries, including TensorFlow, are installed.
 - Upload and run the following notebooks:
-    - Initial model: AlphabetSoupCharity.ipynb
-    - Optimised models: AlphabetSoupCharity_Optimization.ipynb
+    - Initial model: [`AlphabetSoupCharity.ipynb`](AlphabetSoupCharity.ipynb)
+    - Optimised models: [`AlphabetSoupCharity_Optimization.ipynb`](AlphabetSoupCharity_Optimization.ipynb)
 
 
 ### Data Preprocessing

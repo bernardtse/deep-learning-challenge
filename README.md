@@ -22,11 +22,11 @@ The non-profit foundation Alphabet Soup requires a tool to select funding applic
 
 Jupyter Notebooks
 - [`AlphabetSoupCharity.ipynb`](AlphabetSoupCharity.ipynb)
-- [`AlphabetSoupCharity_Optimization.ipynb`](AlphabetSoupCharity_Optimization.ipynb)
+- [`AlphabetSoupCharity_Optimisation.ipynb`](AlphabetSoupCharity_Optimisation.ipynb)
 
 Results
 - `results/AlphabetSoupCharity.h5`
-- `results/AlphabetSoupCharity_Optimization.h5`
+- `results/AlphabetSoupCharity_Optimisation.h5`
 
 
 ## 3. Deployment
@@ -38,7 +38,7 @@ Results
 - Make sure all required libraries, including TensorFlow, are installed.
 - Upload and run the following notebooks:
     - Initial model: [`AlphabetSoupCharity.ipynb`](AlphabetSoupCharity.ipynb)
-    - Optimised models: [`AlphabetSoupCharity_Optimization.ipynb`](AlphabetSoupCharity_Optimization.ipynb)
+    - Optimised models: [`AlphabetSoupCharity_Optimisation.ipynb`](AlphabetSoupCharity_Optimisation.ipynb)
 
 
 ### Data Preprocessing
@@ -84,7 +84,9 @@ Several steps are taken to clean the dataset and prepare it for machine learning
 
 Model Evaluation: The trained model is evaluated using the test data (X_test_scaled, y_test). This step calculates the loss and accuracy of the model's predictions on the unseen test dataset.
 
-Model Export: Following evaluation, the model is saved to an HDF5 file format for future use. The file path for saving the model is defined as "AlphabetSoupCharity.h5", providing a convenient way to store and reuse the trained model.
+Model Export: Following evaluation, the model is saved to an HDF5 file format for future use. The file path for saving the model is defined as AlphabetSoupCharity.h5`, providing a convenient way to store and reuse the trained model.
+
+![Neural Network Model](images/nn_model.png)
 
 ### Results
 - Model Performance: The evaluated model achieves a loss of approximately 0.5612 and an accuracy of about 72.98%. These metrics indicate the level of error and the model's predictive capability, respectively, on the test dataset.
@@ -127,10 +129,10 @@ In this trial learning test, 3 optimisation changes are made in an attempt to in
 | Model | Accuracy | Loss |
 |----|----|----|
 | Original | 72.98% | 0.5612 |
-| First Optimization | 72.62% | 0.6167 |
+| First Optimisation | 72.62% | 0.6167 |
 | Tuned by KerasTuner | 72.86% | 0.5622 |
 
-The accuracy score consistently remains between 72% and 73%, without clear improvement shown in various optimization strategies. Although a variety of strategies can further be applied to tune the machine learning model, reaching the target of 75% accuracy can be a challenging task.
+The accuracy score consistently remains between 72% and 73%, without clear improvement shown in various optimisation strategies. Although a variety of strategies can further be applied to tune the machine learning model, reaching the target of 75% accuracy can be a challenging task.
 
 
 ## 7. Recommendation

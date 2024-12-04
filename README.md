@@ -21,12 +21,12 @@ The non-profit foundation Alphabet Soup requires a tool to select funding applic
 ## 2. Repository
 
 Jupyter Notebooks
-- [`AlphabetSoupCharity.ipynb`](AlphabetSoupCharity.ipynb)
-- [`AlphabetSoupCharity_Optimisation.ipynb`](AlphabetSoupCharity_Optimisation.ipynb)
+- [`alphabet_soup_charity.ipynb`](alphabet_soup_charity.ipynb)
+- [`alphabet_soup_charity_optimisation.ipynb`](alphabet_soup_charity_optimisation.ipynb)
 
 Results
-- `results/AlphabetSoupCharity.h5`
-- `results/AlphabetSoupCharity_Optimisation.h5`
+- `results/alphabet_soup_charity.h5`
+- `results/alphabet_soup_charity_optimisation.h5`
 
 
 ## 3. Deployment
@@ -37,8 +37,8 @@ Results
 - Sign in to Google Colab or any online Jupyter Notebook services that support deep learning libraries like TensorFlow. 
 - Make sure all required libraries, including TensorFlow, are installed.
 - Upload and run the following notebooks:
-    - Initial model: [`AlphabetSoupCharity.ipynb`](AlphabetSoupCharity.ipynb)
-    - Optimised models: [`AlphabetSoupCharity_Optimisation.ipynb`](AlphabetSoupCharity_Optimisation.ipynb)
+    - Initial model: [`alphabet_soup_charity.ipynb`](alphabet_soup_charity.ipynb)
+    - Optimised models: [`alphabet_soup_charity_optimisation.ipynb`](alphabet_soup_charity_optimisation.ipynb)
 
 
 ### Data Preprocessing
